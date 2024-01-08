@@ -12,3 +12,4 @@ write_xlsx(x = thread3_4.5$comments, path = "thread3_comments_4.5.xlsx", col_nam
 thread11_4.5 <- get_thread_content(url="")
 write_xlsx(x = thread, path = "thread_contents_4.5.xlsx", col_names = TRUE)
 write_xlsx(x = thread$comments, path = "thread_comments_4.5.xlsx", col_names = TRUE)
+
