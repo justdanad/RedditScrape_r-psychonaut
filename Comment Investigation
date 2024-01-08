@@ -8,5 +8,3 @@ library(RedditExtractoR)
 threads_contents <- get_thread_content(url="https://www.reddit.com/r/Psychonaut/comments/117gudk/tifu_by_sending_by_boyfriend_on_a_bad_bad_trip/")
 str(threads_contents$comments)
 write_xlsx(x = threads_contents, path = "bad_trip_tifu_content.xlsx", col_names = TRUE)
-
-272 comments, 240 pulled, which ones are missing? (does it matter?)
